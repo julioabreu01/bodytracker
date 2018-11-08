@@ -1,0 +1,11 @@
+<p>
+    <strong>Peso:</strong>
+    <%= medida.peso %>
+<strong>|</strong>
+    <strong>BMI:</strong>
+    <%= medida.bmi %> 
+    <%= link_to 'Editar', edit_paciente_medida_path(@paciente, medida) %>  
+    <%= link_to 'Excluir', [@paciente, medida],
+               method: :delete,
+               data: { confirm: 'Confirma?' } %>
+  </p>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  nascimento: 2018-10-30
+  altura: 9.99
+  genero: MyString
+  telefone: MyString
+  notas: MyText
+
+two:
+  nome: MyString
+  nascimento: 2018-10-30
+  altura: 9.99
+  genero: MyString
+  telefone: MyString
+  notas: MyText

@@ -1,0 +1,13 @@
+<%= form_with(model: [ @medida.paciente, @medida ], local: true) do |form| %>
+  <p>
+    <%= form.label :peso %><br>
+    <%= form.text_field :peso %>
+  </p>
+  <p>
+    <%= form.label :bmi %><br>
+    <%= form.text_area :bmi %>
+  </p>
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>

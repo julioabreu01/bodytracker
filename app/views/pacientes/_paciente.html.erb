@@ -1,0 +1,22 @@
+<tr class="odd gradeX">
+    <td><%= paciente.nome %></td>
+    <td><%= paciente.genero %></td>
+    <td><%= paciente.telefone %></td>
+    <td class="center"><%= paciente.altura %></td>
+    <td class="center">
+                
+                
+                <%= link_to paciente_path(paciente), :class=>"btn btn-success btn-circle" do %>
+                 <i class="fa fa-address-card fa-fw"></i>
+                 <%end %>
+                 <%= link_to edit_paciente_path(paciente), :class=>"btn btn-warning btn-circle" do %>
+                 <i class="fa fa-pencil-square-o fa-fw"></i>
+                 <%end %>
+                
+                <%= link_to paciente_path(paciente), :class=>"btn btn-danger btn-circle",
+                    method: :delete,
+                    data: { confirm: 'Confirma a exclusão deste paciente?' } do %>
+                <i class="fa fa-trash fa-fw"></i>
+                <%end %>
+    </td>
+</tr>

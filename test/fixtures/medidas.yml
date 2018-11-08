@@ -1,0 +1,49 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  datahora: 2018-10-31 11:31:57
+  peso: 9.99
+  bmi: 9.99
+  dci: 1
+  bmr: 1
+  idademetabolica: 1
+  txliquido: 9.99
+  gordvisceral: 1
+  massaossea: 1
+  txgordtotal: 9.99
+  txgordbraesq: 9.99
+  txgordbradir: 9.99
+  txgordperesq: 9.99
+  txgordperdir: 9.99
+  txgordtronco: 9.99
+  massamusctotal: 9.99
+  massamuscbraesq: 9.99
+  massamuscbradir: 9.99
+  massamuscperesq: 9.99
+  massamuscperdir: 9.99
+  massamusctronco: 9.99
+  paciente: one
+
+two:
+  datahora: 2018-10-31 11:31:57
+  peso: 9.99
+  bmi: 9.99
+  dci: 1
+  bmr: 1
+  idademetabolica: 1
+  txliquido: 9.99
+  gordvisceral: 1
+  massaossea: 1
+  txgordtotal: 9.99
+  txgordbraesq: 9.99
+  txgordbradir: 9.99
+  txgordperesq: 9.99
+  txgordperdir: 9.99
+  txgordtronco: 9.99
+  massamusctotal: 9.99
+  massamuscbraesq: 9.99
+  massamuscbradir: 9.99
+  massamuscperesq: 9.99
+  massamuscperdir: 9.99
+  massamusctronco: 9.99
+  paciente: two
